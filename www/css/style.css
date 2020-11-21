@@ -1,0 +1,416 @@
+
+html, body{
+	height: 100%;
+}
+body{
+	background: url(../img/wallper.jpg) center repeat;
+	font-size: 16px;
+	font-weight: bold;
+	min-width: 320px;
+}
+
+.form-group{
+	text-align: left;
+}
+
+a:hover{
+	color: #2cc7c1;	
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+section{
+	position: relative;
+}
+h2{
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+/*===================header=====================*/
+#header{
+	background: url(../img/background3.png) center no-repeat;
+	background-size: cover;
+	/*height: 100vh;*/
+	height: 100%;
+}
+.section-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.section-row{
+	display: table-row;
+}
+.section-cell{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.section-center{
+	max-width: 550px;
+	display: inline-block;
+	margin-bottom: 32px;
+}
+
+#header p{
+	color: #000;
+	font-weight: bold;
+	font-size: 115%;
+	color: #3b3c40;
+}
+.btn{
+	color: #fff;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border: none;
+	color: #fff;
+	transition: background .5s;
+}
+.btn-primary{
+	background: #7ea4e8;
+}
+.btn-primary:hover{
+	background: #6787c2;
+}
+.btn-default{
+	background: #6a7079;
+}
+.btn-default:hover{
+	background: #474c52;
+	color: #fff;
+}
+
+.slide-down {
+  position: absolute;
+  bottom: 15px;
+  z-index: 100;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  cursor: pointer; }
+  .slide-down h6 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px; }
+  .slide-down .line {
+    width: 100px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 60px;
+     }
+
+    .slide-down  i{
+  font-size: 20px;
+  color: black;
+     }
+
+   .slide-down .line:hover {
+
+    background-color: #e6e62f;
+
+     }
+
+
+/*=====================speakers===================*/
+#speakers{
+	padding: 90px 0;
+	border-bottom: 2px solid #ececec;
+}
+
+
+.section-tabs{
+	border: 2px solid #000;
+}
+
+
+.section-tabs .nav-tabs.nav-justified li a,
+.section-tabs .nav-tabs.nav-justified li.active a,
+.section-tabs .nav-tabs.nav-justified li.active a:focus,
+.section-tabs .nav-tabs.nav-justified li.active a:hover{
+	border-radius: 0;
+	border: none;
+
+	font-weight: 700;
+	outline: 0;
+}
+
+.section-tabs .tab-content{
+	padding: 25px 20px;
+}
+.section-tabs .tab-content ul{
+	padding-left: 10px;
+}
+.section-tabs .tab-content ul li{
+	line-height: 30px;
+}
+.section-tabs .tab-content ul li i{
+
+	margin-right: 10px;
+}
+
+.speakers-head{
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.speakers-head h2{
+	color: #6a7079;
+}
+
+
+.time{
+	background: skyblue;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 5px;
+	border-radius: 2px;
+
+}
+
+.time2{
+	background: skyblue;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 5px;
+	border-radius: 2px;
+
+}
+
+.large span {
+ color: blue;
+}
+
+#myCarousel h2{
+	text-align: center;
+}
+
+.carousel-inner img{
+	margin: auto;
+}
+
+#myCarousel {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.tab-collapse{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.row-item{
+	margin-top: 100px;
+}
+.carousel-indicators{
+	left: 0;
+	bottom: 10px;
+	margin: 0;
+	margin-left: 20px;
+	width: auto;
+}
+.carousel-indicators li{
+	text-align: center;
+	border: 1px solid #000;
+	background: #fff;
+	height: 12px;
+	width: 12px;
+}
+.carousel-indicators li.active{
+	background: #e36060;
+	height: 14px;
+	width: 14px;
+}
+
+/*=======================#contacts========================*/
+#contacts{
+	background: #355d88;
+	padding: 70px 0;
+}
+#contacts h3,
+#contacts h4{
+	color: #fff;
+	margin: 0 0 25px;
+}
+#contacts h3 span{
+	font-weight: 700;
+}
+
+
+#contacts p{
+	color: #fff;
+}
+#contacts a,
+#contacts .contacts p{
+	font-weight: 500;
+	color: #fff;
+	font-size: 105%;
+}
+#contacts .contacts p i{
+	margin-right: 10px;
+}
+.social img{
+	margin-right: 20px;
+}
+
+/*=======================#copy========================*/
+#copy{
+	background: #224264;
+	padding: 15px 0;
+}
+#copy a{
+	margin: 0;
+	color: #fff;
+	font-weight: 500;
+}
+
+#copy a:hover{
+	color: skyblue;
+	text-decoration: none;
+}
+
+#copy p{
+	margin: 0;
+	color: #fff;
+	font-weight: 500;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#speakers,
+	#events,
+	#form,
+	#contacts{
+		padding: 20px 0;
+	}
+	.speakers-head,
+	.speakers-footer{
+		margin: 20px 0;
+	}
+	.row-item{
+		margin-top: 30px;
+	}
+	.row-item-col{
+		margin: 20px 0;
+	}
+	#sponsors{
+		padding: 20px 0 0;
+	}
+	#sponsors img{
+		margin-bottom: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+@media only screen and (max-width : 375px) {
+
+.topnav a {
+color: #fff;
+}
+	
+}
+
+
+@media only screen and (max-width : 600px) {
+	#header{
+		min-height: 300px;
+	}
+	.section-center{
+		max-width: 320px;
+	}
+	#header h1{
+		font-size: 20px;
+	}
+	#header p{
+		font-size: 16px;
+	}
+	.section-btn{
+		font-size: 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.row-item{
+		margin-top: 10px;
+	}
+}
+
+
+
+.table {
+   text-align: center;
+}
+
+#back2Top{
+    z-index: 1;
+    display: none;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    background-color: #3cc4ec;
+    border-radius: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 130%;
+    font-weight: 400;
+}
+#back2Top:hover {
+    background-color: #1dabd5;
+    color: #fff;
+}
+
+
+
+.topnav a {
+	background-color: yellow;
+  color: #3b3c40;
+    left: 50%;
+  padding: 3px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.topnav a:hover {
+   background-color: #e6e62f;
+}
+
+.topnav {
+	margin-bottom: 50px;
+}
+
+.lang a {
+	color: black;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 5px;
+	text-decoration: none;
+}
+
+.lang span {
+	color: black;
+}
+
+.lang a:hover {
+	color: yellow;
+}
+
+.lang {
+	padding-bottom: 20px;
+}
+
